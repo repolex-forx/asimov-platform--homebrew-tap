@@ -1,0 +1,24 @@
+{
+  "manifest_version": "1.0",
+  "org": "asimov-platform",
+  "repo": "homebrew-tap",
+  "versions": [
+    {
+      "commit": "2fd52103af3873b94830d0f7a1589a811748cfcc",
+      "parsed_at": "2026-04-03T01:06:44.280678+00:00",
+      "tag": "asimov-cli-25.0.0-dev.3",
+      "filetree": "filetree/2fd52103af3873b94830d0f7a1589a811748cfcc.nq.gz",
+      "blobs": [
+        "blob/34da9c321a3ff2c713f9e9f062d272747cc7ecc4.nq.gz",
+        "blob/ee66e82c9b5d67f612c9a31fe561120a2eb2f71c.nq.gz",
+        "blob/14fb7a7bcedaf6797cf18a584fafb8b6f4762929.nq.gz",
+        "blob/1c13c35aff44bf07e46c086a86daf066d5fb9abf.nq.gz",
+        "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
