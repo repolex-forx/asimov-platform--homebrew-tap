@@ -36,6 +36,17 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 
 ```
 .
+├── aggregate
+│   ├── ast
+│   │   ├── 2fd52103af3873b94830d0f7a1589a811748cfcc
+│   │   │   └── chunk-001.nq.gz
+│   │   └── 2fd52103af3873b94830d0f7a1589a811748cfcc.nq.gz
+│   ├── lsp
+│   │   └── 2fd52103af3873b94830d0f7a1589a811748cfcc.nq.gz
+│   └── repolex
+│       ├── 2fd52103af3873b94830d0f7a1589a811748cfcc
+│       │   └── chunk-001.nq.gz
+│       └── 2fd52103af3873b94830d0f7a1589a811748cfcc.nq.gz
 ├── blob
 │   ├── 14fb7a7bcedaf6797cf18a584fafb8b6f4762929.nq.gz
 │   ├── 1c13c35aff44bf07e46c086a86daf066d5fb9abf.nq.gz
@@ -46,6 +57,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 2fd52103af3873b94830d0f7a1589a811748cfcc.nq.gz
 ├── filetree
 │   └── 2fd52103af3873b94830d0f7a1589a811748cfcc.nq.gz
 ├── pr
@@ -53,7 +66,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-7 directories, 10 files
+14 directories, 16 files
 ```
 
 | Directory | What it contains |
@@ -73,4 +86,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [asimov-platform/homebrew-tap](https://github.com/asimov-platform/homebrew-tap)
 
 ---
-*Parsed on 2026-04-03 by [repolex](https://repolex.ai)*
+*Parsed on 2026-04-15 by [repolex](https://repolex.ai)*
