@@ -1,0 +1,7 @@
+[2026-04-15T13:51:27Z] === AST ITERATION 1 START | repo=asimov-platform/homebrew-tap sha=2fd52103 ===
+[2026-04-15T13:51:27Z] [iter=1] PHASE START: ast repo=asimov-platform/homebrew-tap sha=2fd52103
+[2026-04-15T13:51:27Z] [iter=1] Building AST aggregate chunks
+[2026-04-15T13:51:27Z] [iter=1] AST chunks built count=1 triples=1138
+[2026-04-15T13:51:27Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/2fd52103af3873b94830d0f7a1589a811748cfcc/.complete
+[2026-04-15T13:51:27Z] [iter=1] PHASE END: ast elapsed_s=0 elapsed_min=0.0
+[2026-04-15T13:51:27Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
