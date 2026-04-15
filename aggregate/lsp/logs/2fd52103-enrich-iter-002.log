@@ -1,0 +1,14 @@
+[2026-04-15T14:05:09Z] === ENRICH ITERATION 2 START | repo=asimov-platform/homebrew-tap sha=2fd52103 ===
+[2026-04-15T14:05:09Z] [iter=2] PHASE START: enrich repo=asimov-platform/homebrew-tap sha=2fd52103 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/2fd52103-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/2fd52103af3873b94830d0f7a1589a811748cfcc.nq.gz
+[2026-04-15T14:05:09Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-15T14:05:09Z] [iter=2] AST store loaded triples=1138 load_secs=0 mem_mb=86 MB
+[2026-04-15T14:05:09Z] [iter=2] Step 2: Finding LSP targets mem_mb=86 MB
+[2026-04-15T14:05:09Z] [iter=2] LSP targets found call_sites=22 imports=0 extends=0 implements=0 secs=0
+[2026-04-15T14:05:09Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=86 MB
+[2026-04-15T14:05:09Z] [iter=2] Position index built positions=82 nodes_with_types=102 secs=0 mem_mb=86 MB
+[2026-04-15T14:05:09Z] [iter=2] Step 3: Starting LSP resolution mem_mb=86 MB already_completed_types=[] already_completed_files=0
+[2026-04-15T14:05:09Z] [iter=2] Resolving target type target_type=call_site count=22
+[2026-04-15T14:05:14Z] [iter=2] Target type resolved target_type=call_site resolved=2 errors=0 secs=5 mem_mb=87 MB
+[2026-04-15T14:05:15Z] [iter=2] Step 5: Writing final enrichment file triples=55
+[2026-04-15T14:05:15Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/2fd52103af3873b94830d0f7a1589a811748cfcc.nq.gz size_kb=1
+[2026-04-15T14:05:15Z] [iter=2] PHASE END: enrich elapsed_s=7 elapsed_min=0.1 total_triples=55
